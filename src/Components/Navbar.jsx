@@ -14,9 +14,9 @@ const Navbar = ( { toggleDarkMode , darkMode }) => {
        </div>
        <div className='flex space-x-12'>
        <div className=''><button>Home</button></div>
-       <div className=''>Resources</div> 
-       <div className=''>About</div>
-       <div className=''>Tech Tips</div>
+       <div className=''><button><Link to={`/resources`}>Resources</Link></button></div> 
+       <div className=''><button>Tech Tips</button></div>
+       <div className=''><button>About</button></div>
        </div>
        
       <div className='flex  items-center space-x-12'>

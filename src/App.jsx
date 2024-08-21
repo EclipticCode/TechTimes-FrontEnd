@@ -1,5 +1,7 @@
 import React , { useState } from 'react'
 import Navbar from './Components/Navbar'
+import { Route, Routes } from 'react-router-dom';
+import Resources from './Components/Resources';
 
 const App = () => {
 
@@ -11,8 +13,11 @@ const App = () => {
 
   return (
     <div className={`${darkMode && "dark"}`}>
-      <div className='h-screen w-auto dark:bg-darkMode dark:text-textDarkMode'>
+      <div className='h-full w-auto dark:bg-darkMode dark:text-textDarkMode'>
       <Navbar toggleDarkMode = {toggleDarkMode} darkMode = {darkMode}/>
+      <Routes>
+        <Route path='/resources' element={<Resources/>}></Route>
+      </Routes>
       </div>
     </div>
   )

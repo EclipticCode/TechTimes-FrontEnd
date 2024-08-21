@@ -8,7 +8,7 @@ export default {
     extend: {
       colors : {
          darkMode : "#10172A" , 
-         textDarkMode : "#ffffff",
+         textDarkMode : "#E7E7E7",
          navBar : "#1F2937"
       }
     },
