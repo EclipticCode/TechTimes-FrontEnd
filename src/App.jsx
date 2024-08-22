@@ -6,6 +6,7 @@ import Resources from './Components/Resources';
 import TechTips from './Components/TechTips';
 import About from './Components/About';
 import Footer from './Components/Footer';
+import Stats from './Components/Stats';
 
 const App = () => {
 
@@ -25,6 +26,7 @@ const App = () => {
         <Route path='/techTips' element={<TechTips/>}></Route>
         <Route path='/about' element={<About/>}></Route>
       </Routes>
+      <Stats/>
       <Footer/>
       </div>
     </div>

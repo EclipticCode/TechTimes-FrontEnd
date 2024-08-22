@@ -13,10 +13,10 @@ const Navbar = ( { toggleDarkMode , darkMode }) => {
       </button>
        </div>
        <div className='flex space-x-12'>
-       <div className=''><button><Link to={`/`}>Home</Link></button></div>
-       <div className=''><button><Link to={`/resources`}>Resources</Link></button></div> 
-       <div className=''><button><Link to={`/techTips`}>Tech Tips</Link></button></div>
-       <div className=''><button><Link to={`/about`}>About</Link></button></div>
+       <div><button className='active:bg-teal-500 p-1 rounded-full'><Link to={`/`}>Home</Link></button></div>
+       <div><button className='active:bg-teal-500 p-1 rounded-full'><Link to={`/resources`}>Resources</Link></button></div> 
+       <div><button className='active:bg-teal-500 p-1 rounded-full'><Link to={`/techTips`}>Tech Tips</Link></button></div>
+       <div><button className='active:bg-teal-500 p-1 rounded-full'><Link to={`/about`}>About</Link></button></div>
        </div>
        
       <div className='flex  items-center space-x-12'>
