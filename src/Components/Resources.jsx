@@ -30,7 +30,7 @@ const Resources = () => {
   return (
     <div className='grid justify-items-center m-32'>
         <h1 className='text-5xl font-bold'>Best Online Learning Sites for Programming</h1>
-        <div className='mt-16 h-auto w-3/4 border-2 border-teal-500 rounded-md dark:bg-navBar text-left p-6 font-light text-lg dark:border-teal-500 '>
+        <div className='mt-16 h-auto w-3/4 border-2 border-teal-500 rounded-md dark:bg-navBar text-left p-6 font-light text-lg dark:border-teal-500 hover:opacity-80'>
          Discover the best online learning sites for programming to kickstart or advance your coding skills from the comfort of your home. Explore top platforms like Codecademy, freeCodeCamp, Coursera, and more.
         </div>
         <div className='mt-16 h-auto w-3/4 text-left p-6 font-light text-xl'>
