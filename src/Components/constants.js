@@ -1,3 +1,61 @@
+// Home Section
+export const blogsList = [
+    {
+      id: 1,
+      title: "Full-Stack Development for Beginners",
+      href: "#",
+      description:"Guide for beginners on how to get started with full-stack development using the MERN stack (MongoDB, Express.js, React, Node.js)",
+      date: "Aug 16, 2024",
+      datetime: "2020-03-16",
+    },
+    {
+      id: 2,
+      title: "JavaScript Tips and Tricks",
+      href: "#",
+      description:
+        "Useful JavaScript tips, best practices, and lesser-known features that can help beginners and intermediates to write better code.",
+      date: "July 28, 2024",
+      datetime: "2020-03-16",
+    },
+    {
+      id: 3,
+      title: "React vs. Other Front-End Frameworks",
+      href: "#",
+      description:
+        "Compare React with other popular front-end frameworks like Angular, Vue.js, and Svelte, highlighting their strengths and weaknesses.",
+      date: "July 1, 2024",
+      datetime: "2020-03-16",
+    },
+    {
+      id: 4,
+      title: "Exploring CSS Frameworks",
+      href: "#",
+      description:
+        "A series that explores different CSS frameworks like Tailwind CSS, Bootstrap, and Bulma, and how they can be used to streamline front-end development.",
+      date: "June 22, 2024",
+      datetime: "2020-03-16",
+    },
+    {
+      id: 5,
+      title: "Code Reviews and Best Practices",
+      href: "#",
+      description:
+        "Insights on how to conduct effective code reviews, common mistakes to avoid, and how to improve code quality within teams.",
+      date: "May 6, 2024",
+      datetime: "2020-03-16",
+    },
+    {
+      id: 6,
+      title: "The Future of Web Development",
+      href: "#",
+      description:
+        "Emerging trends in web development, such as WebAssembly, Progressive Web Apps (PWAs), and the use of AI in web designs.",
+      date: "Apr 18, 2024",
+      datetime: "2020-03-16",
+    },
+  ];
+  
+
 // Resources Section
 export const lists = [
     { href : "https://www.freecodecamp.org/" ,
@@ -22,7 +80,6 @@ export const lists = [
       } , 
 
 ]
-
 
 // Tech Tips Section
 export const contentsTechTips = [
