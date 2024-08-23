@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="dark:bg-navBar pt-4 border-t-4 border-b-2 border-x-2 border-teal-500 rounded-lg pb-8 mt-24">
+    <div className="dark:bg-navBar pt-4 border-t-4 border-b-2 border-x-2 border-fuchsia-500 rounded-lg pb-8 mt-24">
       <div className="flex justify-between mx-8 pb-8">
         <div className="flex-shrink-0 cursor-pointer">
           <button className="relative inline-flex items-center justify-center p-0.5 overflow-hidden font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white focus:ring-4 focus:outline-none focus:ring-green-200 italic ml-4">

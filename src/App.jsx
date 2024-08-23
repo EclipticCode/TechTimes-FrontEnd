@@ -8,6 +8,7 @@ import About from './Components/About';
 import Footer from './Components/Footer';
 import Login from './Components/Login'
 import Registration from './Components/Resgistration'
+import BlogDetails from './Components/BlogDetails';
 
 const App = () => {
 
@@ -26,6 +27,7 @@ const App = () => {
         <Route path='/resources' element={<Resources/>}></Route>
         <Route path='/techTips' element={<TechTips/>}></Route>
         <Route path='/about' element={<About/>}></Route>
+        <Route path='/blogDetails/:blogTitle/:id' element={<BlogDetails/> }></Route>
         <Route path='/login' element={<Login/>}></Route>
         <Route path='/registration' element={<Registration/>}></Route>
       </Routes>
