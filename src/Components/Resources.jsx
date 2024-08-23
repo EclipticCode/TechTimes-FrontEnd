@@ -1,29 +1,5 @@
 import React from 'react'
-
-const lists = [
-    { href : "https://www.freecodecamp.org/" ,
-      websiteName : "freeCodeCamp" ,
-      description : " A nonprofit interactive learning platform that covers JavaScript and web development."
-    } , 
-    { href : "https://www.w3schools.com/" ,
-        websiteName : "W3Schools" ,
-        description : "Known for its beginner-friendly tutorials, W3Schools offers detailed guides on web development technologies."
-      } , 
-      { href : "https://www.sololearn.com/en/" ,
-        websiteName : "SoloLearn" ,
-        description : "A mobile-first platform that provides bite-sized lessons and coding challenges in a gamified format."
-      } , 
-      { href : "https://overapi.com/" ,
-        websiteName : "OverAPI" ,
-        description : "A collection of cheat sheets for various programming languages and frameworks, making it a handy quick-reference guide."
-      } , 
-      { href : "https://www.skillreactor.io/" ,
-        websiteName : "SkillReactor" ,
-        description : " SkillReactor helps developers learn by building real-world projects and receiving feedback."
-      } , 
-
-]
-
+import { lists } from './constants'
 
 
 const Resources = () => {
