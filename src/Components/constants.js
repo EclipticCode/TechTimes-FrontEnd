@@ -1,3 +1,6 @@
+// backend url
+export const apiUrl = 'https://techtimes-backend-3.onrender.com'
+
 // Home Section
 export const blogsList = [
     {

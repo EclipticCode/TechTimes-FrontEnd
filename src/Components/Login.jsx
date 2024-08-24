@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import axios from 'axios'
+import { apiUrl } from './constants'
 
 const Login = () => {
 
@@ -10,7 +11,7 @@ const Login = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault()
-    const apiResponse = await axios.get(`http://localhost:4000/login/${username}/${password}`);
+    const apiResponse = await axios.get(`${apiUrl}/login/${username}/${password}`);
     try {
      if(apiResponse.data != "Login Failed"){
       const { username , token } = apiResponse.data;
