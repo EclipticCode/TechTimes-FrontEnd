@@ -19,7 +19,7 @@ const Login = () => {
             <div>
               <label
                 htmlFor="username"
-                className="block text-lg font-semibold leading-6 text-teal-800 dark:text-gray-400"
+                className="block text-lg font-semibold leading-6 text-fuchsia-800 dark:text-gray-400"
               >
                 Username
               </label>
@@ -40,7 +40,7 @@ const Login = () => {
               <div className="flex items-center justify-between">
                 <label
                   htmlFor="password"
-                  className="block text-lg font-semibold leading-6 text-teal-800 dark:text-gray-400"
+                  className="block text-lg font-semibold leading-6 text-fuchsia-800 dark:text-gray-400"
                 >
                   Password
                 </label>
@@ -53,7 +53,7 @@ const Login = () => {
                   required
                   autoComplete="current-password"
                   placeholder="Enter Password"
-                  className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-teal-400 sm:text-sm sm:leading-6 px-2"
+                  className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-fuchsia-400 sm:text-sm sm:leading-6 px-2"
                 />
               </div>
             </div>
@@ -61,7 +61,7 @@ const Login = () => {
             <div>
               <button
                 type="submit"
-                className="flex w-full justify-center rounded-md bg-teal-500 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-teal-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal-600 "
+                className="flex w-full justify-center rounded-md bg-fuchsia-500 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-fuchsia-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal-600 "
               >
                 {/* <Link to={'/'}> */}
                 Login
@@ -74,7 +74,7 @@ const Login = () => {
             New User?
             <Link
               to={`/registration`}
-              className="ml-2 font-semibold leading-6 text-teal-500 hover:text-teal-400"
+              className="ml-2 font-semibold leading-6 text-fuchsia-500 hover:text-fuchsia-400"
             >
               Register here
             </Link>
