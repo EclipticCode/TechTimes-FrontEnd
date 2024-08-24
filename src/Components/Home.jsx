@@ -3,11 +3,15 @@ import { blogsList } from "./constants";
 import { Link } from "react-router-dom";
 
 const Home = () => {
+
+  const username = localStorage.getItem("login");
+
   return (
     <div>
       <div className="py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8 cursor-pointer">
           <div className="mx-auto max-w-2xl lg:mx-0">
+          {username ? <div className="text-4xl mb-16 font-semibold bg-gradient-to-br from-purple-400 via-purple-500 to-fuchsia-800 bg-clip-text text-transparent">Welcome, {username}</div> : <div></div>}
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl dark:text-white">
               Our Latest Blogs
             </h2>
