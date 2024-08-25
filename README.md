@@ -1,8 +1,33 @@
-# React + Vite
+# Tech Times
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Tech Times is your go-to app for staying updated with the latest trends in programming and frameworks. Whether you're a seasoned developer or just starting out, Tech Times offers a wealth of knowledge at your fingertips. Explore our latest blogs to stay informed, join the conversation by commenting on posts, and take advantage of our curated resources. Additionally, don't miss our Tech Tips section, packed with practical advice and insights to sharpen your programming skills.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Folder Structure
+
+TECHTIMES/   
+├── public/   
+├── src/   
+│ ├── assets/   
+│ ├── Components/   
+│ ├── App.jsx   
+│ ├── main.jsx   
+│
+├── .gitignore   
+├── index.html   
+├── package.json   
+├── README.md   
+
+
+## Tech Stack
+
+- HTML5
+- CSS3
+- Javascript
+- ReactJS
+- TailwindCSS
+
+
+## Website Link
+
+View the Live Application - [https://techtimes-frontend.netlify.app/](https://techtimes-frontend.netlify.app/)
