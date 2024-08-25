@@ -5,7 +5,7 @@ Tech Times is your go-to app for staying updated with the latest trends in progr
 
 ## Folder Structure
 
-TECHTIMES/   
+TECHTIMES-FE/   
 ├── public/   
 ├── src/   
 │ ├── assets/   
