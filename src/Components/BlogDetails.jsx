@@ -49,16 +49,16 @@ const BlogDetails = () => {
         className="size-full md:size-auto mb-16 mx-auto"
       />
       <div className="mb-16">
-        <h4 className="text-2xl pb-4 font-semibold">Introduction</h4>
-        <p className="text-lg tracking-wide font-light dark:text-gray-400 leading-relaxed">
+        <h4 className="sm:text-xl md:text-2xl pb-4 font-semibold">Introduction</h4>
+        <p className="sm:text-base md:text-lg tracking-wide font-light dark:text-gray-400 leading-relaxed">
           {blogContent?.introductionContent}
         </p>
       </div>
       <div className="mb-16">
-        <h4 className="text-2xl pb-4 font-semibold">
+        <h4 className="sm:text-xl md:text-2xl pb-4 font-semibold">
           {blogContent?.firstTopic?.heading}
         </h4>
-        <ul className="list-disc text-lg tracking-wide font-light dark:text-gray-400 leading-relaxed">
+        <ul className="list-disc sm:text-base md:text-lg tracking-wide font-light dark:text-gray-400 leading-relaxed">
           <li>
             <span className="font-semibold">
               {blogContent?.firstTopic?.subHeading1}
@@ -90,10 +90,10 @@ const BlogDetails = () => {
         </ul>
       </div>
       <div className="mb-16">
-        <h4 className="text-2xl pb-4 font-semibold">
+        <h4 className="sm:text-xl md:text-2xl pb-4 font-semibold">
           {blogContent?.secondTopic?.heading}
         </h4>
-        <ul className="list-decimal text-lg tracking-wide font-light dark:text-gray-400 leading-relaxed">
+        <ul className="list-decimal sm:text-base md:text-lg tracking-wide font-light dark:text-gray-400 leading-relaxed">
           <li>
             <span className="font-semibold">
               {blogContent?.secondTopic?.subHeading1}
@@ -201,7 +201,7 @@ const BlogDetails = () => {
               <hr />
             </div>
           ) : (
-            <p>No comments yet !</p>
+            <p className="dark:text-white" >No comments yet !</p>
           )}
         </div>
       </div>

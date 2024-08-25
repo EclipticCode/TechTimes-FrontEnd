@@ -90,7 +90,7 @@ export const contentsTechTips = [
       desciption : "After building your application, you’ll want to deploy it so others can use it. Here’s a simple overview of how to deploy a MERN stack application:" , 
       point1 : { topic : "Frontend Deployment:" , description : "You can deploy your React frontend on platforms like Netlify or Vercel. These services allow you to deploy static websites with ease."},
       point2 : { topic : "Backend Deployment" , description :"Deploy your Node.js/Express server on Heroku or Render. These platforms support Node.js applications and make it easy to connect to a MongoDB database." } , 
-      point3 : { topic : "Database Deployment: " , desciption :  "If you’re using MongoDB Atlas, you can easily connect it to your deployed application. MongoDB Atlas is a cloud database service that offers free and paid tiers."},
+      point3 : { topic : "Database Deployment: " , description :  "If you’re using MongoDB Atlas, you can easily connect it to your deployed application. MongoDB Atlas is a cloud database service that offers free and paid tiers."},
     }  ,
     {
       heading : "2) Debugging Tips for Beginners" , 
